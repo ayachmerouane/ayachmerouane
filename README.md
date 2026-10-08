@@ -33,13 +33,13 @@ Système d'aide à la décision pour les incidents et les retards ferroviaires.
 
 | Projet | Description | Stack |
 |---|---|---|
+| [**Cyber Intelligence Platform**](https://github.com/ayachmerouane/cyber-intelligence) 👥 | Projet d'équipe : pipeline ETL distribué de 5 jobs Spark (prétraitement, content mining, graphe, usage, fusion), 15+ collections MongoDB, graph analytics Neo4j/PageRank, API et dashboard. J'ai réalisé la collecte de données et le job de content mining. | Spark · MongoDB · Neo4j · Docker · FastAPI |
 | [**Détecteur d'images IA**](https://github.com/ayachmerouane/ai-image-detector) | Classification de visages réels / générés par IA : 4 architectures CNN comparées, **87,06 % d'accuracy** avec FiveBlockCNN. Démo sur [Hugging Face](https://huggingface.co/spaces/merouane02/DL1). | PyTorch · OpenCV · Streamlit |
 | [**Qualité de production (LSTM)**](https://github.com/ayachmerouane/manufacturing-quality-lstm) | Prédiction du score qualité d'une ligne de production à partir des capteurs machine. | Keras · LSTM · Streamlit |
 | [**Pipeline d'actualités multilingues**](https://github.com/ayachmerouane/multilingual-news-pipeline) | Collecte planifiée d'articles FR/EN/AR via NewsAPI, déduplication, anonymisation et prétraitement. | Python · NLP |
 | [**Amazon Scraper**](https://github.com/ayachmerouane/amazon_scraper_flask) | Application web de scraping de produits Amazon avec historique et export CSV. | Flask · BeautifulSoup |
 
 **Autres projets :**
-- **Cyber Intelligence Platform** : pipeline ETL distribué (5 jobs Spark/PySpark), 15+ collections MongoDB, graph analytics Neo4j/PageRank, architecture conteneurisée
 - **Système de recommandation de cours** : streaming Kafka + Spark, SVD, TF-IDF et K-Means, dashboard de visualisation
 
 ---
